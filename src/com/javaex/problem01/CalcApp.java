@@ -10,7 +10,7 @@ public class CalcApp {
     	
     	System.out.println("사칙 연산 계산기 프로그램을 실행합니다.");
     	System.out.println("구분자로 공백한칸을 사용 합니다.");
-    	System.out.println("계산 할 식을 넣어주세요. 예) a + b");
+    	System.out.println("계산 할 식을 넣어주세요. 예)a + b");
     	while(true) {
     		System.out.print("식 입력>> ");
     		String get = sc.nextLine();
