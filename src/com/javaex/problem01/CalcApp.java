@@ -66,6 +66,7 @@ public class CalcApp {
     	
     	System.out.println("계산기가 종료되었습니다..");
     	
+    	sc.close();
     	
     }
 }

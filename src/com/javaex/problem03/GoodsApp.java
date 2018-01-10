@@ -38,6 +38,8 @@ public class GoodsApp {
     	for(Goods g : al) {
     		g.showInfo();
     	}
+    	
+    	sc.close();
        
     }
 
