@@ -9,6 +9,7 @@ public class FriendApp {
 
     	Scanner sc = new Scanner(System.in);
     	
+    	//ArrayList 객체생성
     	ArrayList <Friend> al = new ArrayList<Friend>();
        
     	for(int i=0; i<3; i++) {
@@ -20,7 +21,8 @@ public class FriendApp {
         	f.setName(friend[0]);
         	f.setHp(friend[1]);
         	f.setSchool(friend[2]);
-        	// 배열에 추가하기
+
+        	//ArrayList 객체에 Friend 객체 추가하기
         	al.add(f);
         }
     	
