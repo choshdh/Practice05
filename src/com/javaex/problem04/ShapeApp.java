@@ -12,8 +12,7 @@ public class ShapeApp {
         Shape t= new RectTriangle( 6, 2 );
         sList.add(r);
         sList.add(t);
-        
-        
+       
         for( int i=0; i<sList.size(); i++ ) {
             
             System.out.println( "area: " + sList.get(i).getArea() );
