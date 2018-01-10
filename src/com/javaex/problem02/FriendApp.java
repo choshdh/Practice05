@@ -30,6 +30,7 @@ public class FriendApp {
     		f.showInfo();
     	}
     	
+    	sc.close();
     }
 
 }
